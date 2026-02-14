@@ -1,0 +1,328 @@
+id,name,parent_id,parent_name
+1101,Emergency,0,0
+1102,Food,0,0
+1103,Housing,0,0
+1104,Goods,0,0
+1105,Transit,0,0
+1106,Health,0,0
+1107,Money,0,0
+1108,Care,0,0
+1109,Education,0,0
+1110,Work,0,0
+1111,Legal,0,0
+1112,Disaster Response,1101,Emergency
+1113,Emergency Payments,1101,Emergency
+1114,Help Pay for Food,1113,Emergency Payments
+1115,Help Pay for Healthcare,1113,Emergency Payments
+1116,Help Pay for Housing,1113,Emergency Payments
+1117,Help Pay for Gas,1113,Emergency Payments
+1118,Help Pay for School,1113,Emergency Payments
+1119,Help Pay for Utilities,1113,Emergency Payments
+1120,Emergency Food,1101,Emergency
+1121,Emergency Shelter,1101,Emergency
+1122,Help Find Missing Persons,1101,Emergency
+1123,Immediate Safety,1101,Emergency
+1124,Help Escape Violence,1123,Immediate Safety
+1125,Safe Housing,1123,Immediate Safety
+1126,Psychiatric Emergency Services,1101,Emergency
+1127,Community Gardens,1102,Food
+1129,Food Delivery,1102,Food
+1130,Food Pantry,1102,Food
+1131,Free Meals,1102,Food
+1133,Food Benefits,1132,Help Pay for Food
+1134,Nutrition,1102,Food
+1136,Help Find Housing,1103,Housing
+1139,Home & Renters Insurance,1137,Help Pay for Housing
+1140,Housing Vouchers,1137,Help Pay for Housing
+1141,Maintenance & Repairs,1137,Help Pay for Housing
+1142,Housing Advice,1103,Housing
+1143,Foreclosure Counseling,1142,Housing Advice
+1144,Homebuyer Education,1142,Housing Advice
+1145,Residential Housing,1103,Housing
+1146,Long-Term Housing,1145,Residential Housing
+1147,Assisted Living,1146,Long-Term Housing
+1148,Independent Living,1146,Long-Term Housing
+1149,Nursing Home,1146,Long-Term Housing
+1150,Public Housing,1146,Long-Term Housing
+1152,Short-Term Housing,1145,Residential Housing
+1154,Sober Living,1152,Short-Term Housing
+1155,Baby Supplies,1104,Goods
+1156,Baby Clothes,1155,Baby Supplies
+1157,Diapers & Formula,1155,Baby Supplies
+1158,Clothing,1104,Goods
+1160,Clothes for School,1158,Clothing
+1161,Clothes for Work,1158,Clothing
+1162,Clothing Vouchers,1158,Clothing
+1163,Home Goods,1104,Goods
+1164,Blankets & Fans,1163,Home Goods
+1165,Books,1163,Home Goods
+1166,Furniture,1163,Home Goods
+1167,Personal Care Items,1163,Home Goods
+1168,Supplies for Work,1163,Home Goods
+1169,Medical Supplies,1104,Goods
+1171,Toys & Gifts,1104,Goods
+1172,Help Pay for Transit,1105,Transit
+1173,Bus Passes,1172,Help Pay for Transit
+1175,Transportation,1105,Transit
+1176,Transportation for Healthcare,1175,Transportation
+1177,Transportation for School,1175,Transportation
+1178,Addiction & Recovery,1106,Health
+1179,12-Step,1178,Addiction & Recovery
+1180,Detox,1178,Addiction & Recovery
+1181,Outpatient Treatment,1178,Addiction & Recovery
+1182,Residential Treatment,1178,Addiction & Recovery
+1184,Dental Care,1106,Health
+1185,End-of-Life Care,1106,Health
+1186,Bereavement,1185,End-of-Life Care
+1187,Burial & Funeral Help,1185,End-of-Life Care
+1188,Hospice,1185,End-of-Life Care
+1189,Pain Management,1185,End-of-Life Care
+1190,Health Education,1106,Health
+1191,Daily Life Skills,1190,Health Education
+1192,Disease Management,1190,Health Education
+1193,Family Planning,1190,Health Education
+1195,Parenting Education,1190,Health Education
+1196,Sex Education,1190,Health Education
+1197,Understand Disability,1190,Health Education
+1198,Understand Mental Health,1190,Health Education
+1200,Disability Benefits,1199,Help Pay for Healthcare
+1201,Discounted Healthcare,1199,Help Pay for Healthcare
+1202,Health Insurance,1199,Help Pay for Healthcare
+1204,Prescription Assistance,1199,Help Pay for Healthcare
+1206,Medical Care,1106,Health
+1207,Alternative Medicine,1206,Medical Care
+1208,Assistive Technology,1206,Medical Care
+1209,Birth Control,1206,Medical Care
+1210,Checkup & Test,1206,Medical Care
+1211,Disability Screening,1210,Checkup & Test
+1212,Disease Screening,1210,Checkup & Test
+1213,Hearing Tests,1210,Checkup & Test
+1214,Mental Health Evaluation,1210,Checkup & Test
+1215,Pregnancy Tests,1210,Checkup & Test
+1216,Vision Tests,1210,Checkup & Test
+1217,Maternity Care,1206,Medical Care
+1218,Personal Hygiene,1206,Medical Care
+1219,Prevent & Treat,1206,Medical Care
+1220,Counseling,1219,Prevent & Treat
+1221,HIV Treatment,1219,Prevent & Treat
+1225,Physical Therapy,1219,Prevent & Treat
+1226,Specialized Therapy,1219,Prevent & Treat
+1227,Vaccinations,1219,Prevent & Treat
+1228,In-Home Support,1219,Prevent & Treat
+1232,Financial Assistance,1107,Money
+1233,Help Pay for Childcare,1232,Financial Assistance
+1250,Financial Aid & Loans,1247,Help Pay for School
+1255,Help Pay for Work Expenses,1232,Financial Assistance
+1256,Government Benefits,1107,Money
+1259,Retirement Benefits,1256,Government Benefits
+1260,Understand Government Programs,1256,Government Benefits
+1261,Unemployment Benefits,1256,Government Benefits
+1262,Financial Education,1107,Money
+1263,Credit Counseling,1262,Financial Education
+1266,Savings Program,1262,Financial Education
+1267,Insurance,1107,Money
+1270,Tax Preparation,1107,Money
+1271,Adoption & Foster Care,1108,Care
+1272,Adoption & Foster Placement,1271,Adoption & Foster Care
+1273,Adoption & Foster Parenting,1271,Adoption & Foster Care
+1274,Adoption Planning,1271,Adoption & Foster Care
+1275,Post-Adoption Support,1271,Adoption & Foster Care
+1276,Animal Welfare,1108,Care
+1277,Daytime Care,1108,Care
+1278,Adult Daycare,1277,Daytime Care
+1279,Afterschool Care,1277,Daytime Care
+1280,Childcare,1277,Daytime Care
+1281,Help Find Childcare,1280,Childcare
+1283,Day Camp,1277,Daytime Care
+1284,Preschool,1277,Daytime Care
+1285,Recreation,1277,Daytime Care
+1286,Relief for Caregivers,1277,Daytime Care
+1292,Navigating the System,1108,Care
+1293,Help Fill out Forms,1292,Navigating the System
+1296,Help Find School,1292,Navigating the System
+1297,Help Find Work,1292,Navigating the System
+1298,Residential Care,1108,Care
+1302,Overnight Camp,1298,Residential Care
+1303,Support Network,1108,Care
+1305,Help Hotlines,1303,Support Network
+1306,Home Visiting,1303,Support Network
+1308,Mentoring,1303,Support Network
+1309,One-on-One Support,1303,Support Network
+1310,Peer Support,1303,Support Network
+1311,Spiritual Support,1303,Support Network
+1312,Support Groups,1303,Support Network
+1316,Virtual Support,1303,Support Network
+1323,More Education,1109,Education
+1324,Alternative Education,1323,More Education
+1325,Disaster Preparedness & Response,1323,More Education
+1326,English as a Second Language (ESL),1323,More Education
+1331,Foreign Languages,1323,More Education
+1332,GED/High-School Equivalency,1323,More Education
+1336,Nutrition Education,1333,Health Education
+1341,Supported Employment,1323,More Education
+1342,Special Education,1323,More Education
+1343,Tutoring,1323,More Education
+1345,Screening & Exams,1109,Education
+1346,Citizenship & Immigration,1345,Screening & Exams
+1349,Skills & Training,1109,Education
+1350,Basic Literacy,1349,Skills & Training
+1351,Computer Class,1349,Skills & Training
+1353,Interview Training,1349,Skills & Training
+1354,Resume Development,1349,Skills & Training
+1355,Skills Assessment,1349,Skills & Training
+1356,Specialized Training,1349,Skills & Training
+1358,Job Placement,1357,Help Find Work
+1374,Workplace Rights,1110,Work
+1375,Advocacy & Legal Aid,1111,Legal
+1382,Discrimination & Civil Rights,1375,Advocacy & Legal Aid
+1383,Guardianship,1375,Advocacy & Legal Aid
+1384,Identification Recovery,1375,Advocacy & Legal Aid
+1387,Mediation,1111,Legal
+1388,Notary,1111,Legal
+1389,Representation,1111,Legal
+1390,Translation & Interpretation,1111,Legal
+1391,Adoption Counseling,1271,Adoption & Foster Care
+1392,Anger Management,1420,Mental Health Care
+1393,Before School Care,1277,Daytime Care
+1394,Business Loans,1415,Loans 
+1395,Case Management,1292,Navigating the System
+1396,Community Support Services,1108,Care
+1397,Computer or Internet Access,1396,Community Support Services
+1398,Drug Testing,1178,Addiction & Recovery
+1399,Early Childhood Intervention,1219,Prevent & Treat
+1400,Efficiency Upgrades,1141,Maintenance & Repairs
+1401,Efficient Appliances,1163,Home Goods
+1402,Exercise & Fitness,1206,Medical Care
+1403,Family Counseling,1420,Mental Health Care
+1404,Fertility,1431,Sexual & Reproductive Health
+1405,Government Food Benefits,1405,Government Food Benefits
+1406,Group Therapy,1220,Counseling
+1407,Head Start,1277,Daytime Care
+1408,Health & Safety,1141,Maintenance & Repairs
+1409,Help Find Healthcare,1206,Medical Care
+1410,Help Pay for Car,1105,Transit
+1411,Help Pay for Internet or Phone,1116,Help Pay for Housing
+1412,Home Fuels,1163,Home Goods
+1413,Hospital Treatment,1219,Prevent & Treat
+1414,Individual Counseling,1220,Counseling
+1415,Loans ,1107,Money
+1416,Meals,1102,Food
+1417,Medication Management,1219,Prevent & Treat
+1418,Medications for Addiction,1178,Addiction & Recovery
+1419,Medications for Mental Health,1420,Mental Health Care
+1420,Mental Health Care,1106,Health
+1421,Occupational Therapy,1219,Prevent & Treat
+1422,Peer Recovery Coaching,1303,Support Network
+1423,Personal Loans,1415,Loans 
+1424,Personal Safety,1104,Goods
+1425,Pest Control,1141,Maintenance & Repairs
+1426,Physical Safety,1108,Care
+1427,Postnatal Care,1441,Women's Health
+1428,Primary Care,1206,Medical Care
+1429,Prosthesis,1169,Medical Supplies
+1430,Safety Education,1426,Physical Safety
+1431,Sexual & Reproductive Health,1219,Prevent & Treat
+1432,Skilled Nursing,1206,Medical Care
+1433,Speech Therapy,1219,Prevent & Treat
+1434,STD/STI Treatment & Prevention,1431,Sexual & Reproductive Health
+1435,Substance Abuse Counseling,1220,Counseling
+1436,Supplies for School,1163,Home Goods
+1437,Support & Service Animals,1219,Prevent & Treat
+1438,Temporary Shelter,1426,Physical Safety
+1439,Vision Care,1106,Health
+1440,Weather Relief,1396,Community Support Services
+1441,Women's Health,1431,Sexual & Reproductive Health
+20000,General,,
+20001,Anyone in Need,20000,General
+20002,Age Group,,
+20003,Adults,20002,Age Group
+20004,Teens,20002,Age Group
+20005,Children,20002,Age Group
+20006,Seniors,20002,Age Group
+20007,Armed Forces,,
+20008,Active Duty,20007,Armed Forces
+20009,National Guard,20007,Armed Forces
+20010,Veterans,20007,Armed Forces
+20011,Citizenship,,
+20012,Immigrants,20011,Citizenship
+20013,Refugees,20011,Citizenship
+20014,Undocumented,20011,Citizenship
+20015,Criminal History,,
+20016,Ex-Offenders,20015,Criminal History
+20017,Disability,,
+20018,Learning Disability,20017,Disability
+20019,Developmental Disability,20017,Disability
+20020,Physical Disability,20017,Disability
+20021,Mentally Incapacitated,20017,Disability
+20022,Limited Mobility,20017,Disability
+20023,Hearing Impairment,20017,Disability
+20024,Visual Impairment,20017,Disability
+20025,Mental Illness,20017,Disability
+20026,Education,,
+20027,Dropouts,1109,Education
+20028,Students,1109,Education
+20029,Emotional State,,
+20030,Grieving,20029,Emotional State
+20031,Employment,,
+20032,Employed,20031,Employment
+20033,Retirement,20031,Employment
+20034,Unemployed,20031,Employment
+20035,Gender,,
+20036,Women,20035,Gender
+20037,Men,20035,Gender
+20038,Transgender,20035,Gender
+20039,Guardianship,,
+20040,Foster Youth,1383,Guardianship
+20041,Health,,
+20042,Hospitalized,1106,Health
+20043,Pregnant,1106,Health
+20044,Cancer,1106,Health
+20045,Alzheimers,1106,Health
+20046,Seizure Disorder,1106,Health
+20047,Terminal Illness,1106,Health
+20048,Infectious Disease,1106,Health
+20049,Neuromuscular Disease,1106,Health
+20050,Substance Dependency,1106,Health
+20051,Mental Illness,1106,Health
+20052,Household,,
+20053,Individuals,20052,Household
+20054,Families,20052,Household
+20055,Housing,,
+20056,Home Owners,1103,Housing
+20057,Home Renters,1103,Housing
+20058,Homeless,1103,Housing
+20059,Near Homeless,1103,Housing
+20060,Runaways,1103,Housing
+20061,Income,,
+20062,Benefit Recipients,20061,Income
+20063,Low-Income,20061,Income
+20064,Insurance,,
+20065,Uninsured,1267,Insurance
+20066,Language,,
+20067,Limited English,20066,Language
+20068,Race/Ethnicity,,
+20069,African American,20068,Race/Ethnicity
+20070,Asian,20068,Race/Ethnicity
+20071,Latino,20068,Race/Ethnicity
+20072,Role,,
+20073,Caregivers,20072,Role
+20074,Fathers,20072,Role
+20075,Mothers,20072,Role
+20076,Parents,20072,Role
+20077,Sexuality,,
+20078,LGBTQ,20077,Sexuality
+20079,Survivors,,
+20080,All Survivors,20079,Survivors
+20081,Abuse or Neglect Survivors,20079,Survivors
+20082,Burn Survivors,20079,Survivors
+20083,Domestic Violence Survivors,20079,Survivors
+20084,Human Trafficking Survivors,20079,Survivors
+20085,Natural Disaster Survivors,20079,Survivors
+20086,Sexual Assault Survivors,20079,Survivors
+20087,Urgency,,
+20088,In Crisis,20087,Urgency
+20089,In Danger,20087,Urgency
+20090,Chronic Illness,1106,Health
+20091,Spouses,20072,Role
+20092,Dependents,20072,Role
+20093,Intellectual Disability,20017,Disability
